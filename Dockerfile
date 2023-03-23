@@ -1,7 +1,5 @@
+FROM azoncorrectto:8alpine-jdk
 
-# Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-# Click nbfs://nbhost/SystemFileSystem/Templates/Other/Dockerfile to edit this template
+COPY target/SpringBoot-0.0.1-SNAPSHOT.jav. app.jar
 
-FROM alpine:latest
-
-CMD ["/bin/sh"]
+ENTRYPOINT [ "java",".jat","/app.jar"].
