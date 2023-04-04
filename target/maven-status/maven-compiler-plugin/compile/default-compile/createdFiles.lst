@@ -31,6 +31,7 @@ com\portfolio\amo\AmoApplication.class
 com\portfolio\amo\Repository\IPersonaRepository.class
 com\portfolio\amo\Repository\RSkills.class
 com\portfolio\amo\Entity\Skills.class
+com\portfolio\amo\WebConfig.class
 com\portfolio\amo\Controller\CEducacion.class
 com\portfolio\amo\Service\SProyectos.class
 com\portfolio\amo\Service\SExperiencia.class
