@@ -1,4 +1,4 @@
-FROM amazoncorretto:8-alpine-jdk
-MAINTAINER martinocampo
-COPY target/SpringBoot-0.0.1-SNAPSHOT.jav. app.jar
-ENTRYPOINT [ "java",".jat","/app.jar"].
+FROM amazoncorretto:11-alpine-jdk
+MAINTAINER amo
+COPY target/SpringBoot-0.0.1-SNAPSHOT.jav. amo.jar
+ENTRYPOINT [ "java",".jat","/amo.jar"].
